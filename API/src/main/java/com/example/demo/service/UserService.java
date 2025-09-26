@@ -10,7 +10,7 @@ import java.util.Optional;
 public class UserService {
     @Autowired
     private UserRepository userRepository;
-    public List<User> getAllUsers(){
+    public List<User> getAllUser(){
         return userRepository.findAll();
     }
   public Optional<User>getUserById(Long id){

@@ -18,8 +18,8 @@ public class UserController {
         return ResponseEntity.ok(userService.createUser(user));
     }
         @GetMapping
-        public ResponseEntity<List<User>> getAllUsers() {
-            return ResponseEntity.ok(userService.getAllUsers());
+        public ResponseEntity<List<User>> getAllUser() {
+            return ResponseEntity.ok(userService.getAllUser());
         }
 
         // Get user by ID
